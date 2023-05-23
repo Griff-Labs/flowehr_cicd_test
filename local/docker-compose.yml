@@ -36,7 +36,7 @@ services:
       - "${LOCAL_MSSQL_PORT}:1433"
 
   cosmosdb:
-    image:  mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator
     platform: linux/amd64
     stdin_open: true
     tty: true
